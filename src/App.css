@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 .App {
   text-align: center;
@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,24 +39,25 @@
   }
 }
 
-/* #components-layout-demo-custom-trigger .trigger {
-  font-size: 18px;
-  line-height: 64px;
-  padding: 0 24px;
-  cursor: pointer;
-  transition: color 0.3s;
+/* For demo */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 35em;
+  line-height: 35em;
+  background: orange;
+  overflow: hidden;
 }
 
-#components-layout-demo-custom-trigger .trigger:hover {
-  color: #1890ff;
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.ant-layout-has-sider {
+  position: absolute;
 }
 
-#components-layout-demo-custom-trigger .logo {
-  height: 32px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 16px;
+.ant-layout-sider {
+  background: white;
 }
-
-.site-layout .site-layout-background {
-  background: #fff;
-} */
+#safetyMeasures {
+  width: 72em;
+}

@@ -1,13 +1,8 @@
-import { Layout, Menu } from 'antd';
-import React from 'react'
-const { Sider, Content } = Layout;
+import React from "react";
 
 class SelfDiagnosis extends React.Component {
-
   render() {
-    return (
-       <span>SelfDiagnosis</span>
-    );
+    return <span>SelfDiagnosis</span>;
   }
 }
 export default SelfDiagnosis;
