@@ -2,7 +2,7 @@
   "name": "covid-19",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nkjammula.github.io/Covid19Tracker",
+  "homepage": "https://nkjammula.github.io/COVID-19-Tracker",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
