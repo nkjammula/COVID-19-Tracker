@@ -8,6 +8,6 @@
 //   expect(linkElement).toBeInTheDocument();
 // });
 
-it("should pass the test", () => {
+it("should pass the test for app", () => {
   expect(true).toEqual(true);
 });
